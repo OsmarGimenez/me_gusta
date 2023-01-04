@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header>
+        <h2>Network</h2>
+    </header>
+
+    <!--Contenedor principal-->
+    <main>
+        <h1>Your Feed</h1>
+
+        <div class="container flex-container">
+            <!--Barra lateral izquierda-->
+            <aside class="border-black">
+                <div>
+                    <img src="static/img/icons/user-circle.png" alt="User icon" width="80">
+                </div>
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </aside>
+            
+            <!--Conjunto de like cards-->
+            <article>
+                <!--Like Card 1 -->
+                <section class="border-black">
+                    <!--Card Header-->
+                    <div class="flex-container card-header">
+                        <div class="flex-container card-user">
+                            <h2>Neil M</h2>
+                            <h4><span id="contador-like-1">9</span> like(s)</h4>
+                        </div>
+                        <button data-count="like-1" class="btn-like" onclick="like(this)">Like</button>
+                    </div>
+                    <!--Card Body-->
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </section>
+
+                <!--Like Card 2 -->
+                <section class="border-black">
+                    <!--Card Header-->
+                    <div class="flex-container card-header">
+                        <div class="flex-container card-user">
+                            <h2>Nichole K</h2>
+                            <h4><span id="contador-like-2">12</span> like(s)</h4>
+                        </div>
+                        <button data-count="like-2" class="btn-like" onclick="like(this)">Like</button>
+                    </div>
+                    <!--Card Body-->
+                    <p>Just Finished my <a href="#">next comic</a>, check it out.</p>
+                </section>
+
+                <!--Like Card 3 -->
+                <section class="border-black">
+                    <!--Card Header-->
+                    <div class="flex-container card-header">
+                        <div class="flex-container card-user">
+                            <h2>Jim R</h2>
+                            <h4><span id="contador-like-3">9</span> like(s)</h4>
+                        </div>
+                        <button data-count="like-3" class="btn-like" onclick="like(this)">Like</button>
+                    </div>
+                    <!--Card Body-->
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </section>
+            </article>
+        </div>
+
+
+
+
+    </main>
+
+
+
+    <!--JS-->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

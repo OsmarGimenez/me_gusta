@@ -1,0 +1,85 @@
+/*Reset Css*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.border-black {
+    border: 3px solid black;
+}
+
+body{
+    width: 700px;
+    height: 1000px ;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Header*/
+header {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+/*MAIN CONTENT*/
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/*Aside*/
+aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+aside img,
+aside a{
+    margin-bottom: 40px;
+}
+
+
+/*Like cards*/
+.container{
+    align-items: flex-start;
+}
+
+article{
+    width: 70%;
+}
+
+section{
+    height: 100px;
+    padding: 20px;
+}
+
+.card-header,
+section {
+    margin-bottom: 20px;
+}
+
+.card-user {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.btn-like{
+    background-color: gold;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+}
+
